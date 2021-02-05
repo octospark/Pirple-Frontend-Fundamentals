@@ -1,0 +1,44 @@
+
+#title-of-article {
+	color: green;
+	text-align: center;
+}
+
+.title-h2 {
+	color: green;
+	font-size: 20px;
+}
+
+.ul-list-properties {
+	list-style-type: none;
+	font-family: garamond;
+	color: blue;
+	list-style-image: url("check.png");
+}
+
+.ol-list-properties {
+	list-style-type: upper-roman;
+}
+
+.ul-links {
+	list-style-type: none;
+	background-color: lightgray;
+}
+
+p span {
+	font-style: italic;
+}
+span:last-child {
+	text-decoration: underline;
+}
+.first-span{
+	color: red;
+}
+
+.blue-color{
+	color: blue;
+}
+
+.image {
+	text-align: center;
+}

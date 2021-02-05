@@ -1,0 +1,20 @@
+body {
+	background-color: yellowgreen;
+}
+
+p {
+	font-size: 20px;
+}
+ul {
+	font-size: 25px;
+	list-style-type: circle;
+}
+
+h1 {
+	padding-top: 50px;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+h2 {
+	padding-top: 50px;
+}

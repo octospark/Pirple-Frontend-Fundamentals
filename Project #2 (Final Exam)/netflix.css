@@ -1,0 +1,232 @@
+body{
+	padding: 0px;
+	margin: 0px;
+    background-image: url("images/front_page.jpg");
+    background-repeat: no-repeat;
+    background-size: 1560px;
+
+
+}
+#first_div {
+	width: 100%;
+	height: 900px;
+	position: relative;
+}
+
+#first_title {
+	position: absolute;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	margin: auto;
+}
+#h1_at_top {
+	width: 60%;
+	margin: auto;
+}
+
+#front_page {
+	width: 100%;
+	height: auto;
+	filter: brightness(50%);
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#logo{
+	color: red;
+	font-size: 40px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 12px;
+	left: 12px;
+}
+
+#sign_in{
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 8px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+form {
+	padding-left: 0;
+	margin: 20px 0px;
+}
+.email{
+	width: 400px;
+	height: 50px;
+	margin-right: 0;
+}
+
+.submit_email {
+	margin-left: -8px;
+	width: 180px;
+	height: 56px;
+	background-color: #ff0000;
+	font-family: "verdana";
+	font-weight: bold;
+	border-style: none;
+	border-radius: 2px;
+	color: white;
+}
+.submit_email:hover{
+	background-color: #e60000;
+	cursor: pointer;
+}
+
+.content {
+	width: 100%;
+	height: 560px;
+	background-color: black;
+	margin: auto;
+}
+.column_1 {
+	margin-top: 15%;
+	margin-left: 0px;
+	margin-right: 0px;
+	float: left;
+  	width: 48%;
+  	padding: 5px;
+}
+
+.right_img {
+	padding-left:15%;
+}
+
+@media screen and (max-width:1020px) {
+  .column_1 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+}
+
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.separator {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 10px;
+	background-color: #303030;
+}
+
+#faqs {
+	width: 100%;
+	height: 1000px;
+	background-color: black;
+}
+
+#head_faqs {
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	width: 100%;
+}
+
+.question {
+	position: relative;
+	width: 700px;
+	height: 70px;
+	background-color: #2a2222;
+	margin: auto;
+	margin-top: : 5px;
+	margin-bottom: 5px;
+	padding-left: 15px;
+}
+
+@media screen and (max-width: 700px){
+	.question {
+		width: 95%;
+	}
+}
+.answer {
+	display: none;
+	position: absolute;
+	width: 770px;
+	height: 240px;
+	background-color: #2a2a2a;
+	margin: auto;
+	z-index: 1;
+	
+
+}
+
+.question:hover .answer {
+	display: block;
+	
+}
+
+#second_submit {
+	position: absolute;
+	margin:auto;
+	text-align: center;
+	width: 100%;
+	margin-top: 220px;
+}
+
+#footer {
+	width: 100%;
+	height: 320px;
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	font-family: "verdana";
+	margin:0px;
+	padding: 0px;
+	font-size: 40px;
+	
+}
+h5 {
+	color: white;
+	font-family: "verdana";
+	font-weight: lighter;
+	margin:0px;
+	padding: 15px 0px;
+	font-size: 20px;
+}
+
+h6 {
+	color: white;
+	font-size: 20px;
+	font-family: "verdana";
+	font-weight: lighter;
+	margin: 0px;
+	padding: 0px;
+}
+
+table {
+	width: 70%;
+	height: 220px;
+	margin: auto;
+	padding-top: 50px;
+}
+a {
+	text-decoration: none;
+    color: #595959;
+    font-family: "verdana";
+    display: block;
+    padding: 0 10px;
+}
